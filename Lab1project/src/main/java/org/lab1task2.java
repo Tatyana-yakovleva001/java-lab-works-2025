@@ -22,7 +22,7 @@ public class lab1task2 {
             max = b;
             min = a;
         }
-        double partOne =Math.pow(max, 5) - 3.2 * min;
+        double partOne = Math.pow(max, 5) - 3.2 * min;
         double partTwo =  1 + min;
         if(partTwo == 0){
             System.out.println("Делить на 0 нельзя");
