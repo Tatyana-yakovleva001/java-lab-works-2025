@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class lab1task1 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите первый аргумент");
         int n1 = sc.nextInt();
@@ -11,7 +11,7 @@ public class lab1task1 {
         double result;
 
 
-        if(n1 * n2 > 40){
+        if (n1 * n2 > 40) {
             result = Math.tan(Math.toRadians(2 * n1));
             System.out.println("Произведение больше 40, поэтому вот двойной тангенс первого числа: " + result);
 
